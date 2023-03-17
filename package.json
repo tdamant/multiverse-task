@@ -11,9 +11,11 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "test": "mocha 'test/**/*.ts' --require ts-node/register --watch-extensions ts --watch"
+    "test": "mocha 'test/**/*.ts' --require ts-node/register"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "chai": "^4.3.7",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   }

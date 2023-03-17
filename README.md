@@ -1,1 +1,1 @@
-# ./run.sh to start watching tests
+# Run ./set_up_and_test.sh to install packages and run all tests 
