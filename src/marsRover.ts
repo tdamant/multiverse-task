@@ -1,5 +1,5 @@
-import {parseInput} from "./parseInput";
-import {calculateNewPositions} from "./calculateNewPosistions";
+import { parseInput } from "./parseInput";
+import { calculateNewPositions } from "./calculateNewPosistions";
 
 export const marsRover = (input: string): string => {
   const parsedInput = parseInput(input);
@@ -16,6 +16,3 @@ export const marsRover = (input: string): string => {
 
   return "invalid input";
 };
-
-
-

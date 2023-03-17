@@ -1,6 +1,6 @@
-import {expect} from "chai";
-import {parseInput} from "../../src/parseInput";
-import {Command, Compass} from "../../src/types";
+import { expect } from "chai";
+import { parseInput } from "../../src/parseInput";
+import { Command, Compass } from "../../src/types";
 
 describe("parseInput", () => {
   describe("invalid input", () => {
@@ -43,7 +43,12 @@ describe("parseInput", () => {
           grid: { x: 4, y: 8 },
           rovers: [
             {
-              starting: { x: 2, y: 3, orientation: Compass.E, outOfBound: false },
+              starting: {
+                x: 2,
+                y: 3,
+                orientation: Compass.E,
+                outOfBound: false,
+              },
               commands: [Command.L, Command.F, Command.R, Command.F, Command.F],
             },
           ],
